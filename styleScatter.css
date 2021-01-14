@@ -1,3 +1,58 @@
-body{
-    background-color: rgb(177, 245, 175);
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 70, 117);
+}
+
+svg {
+    background-color: none;
+    color: white;
+}
+
+.title{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: none; */
+    fill: white;
+    font-size: 21px;
+    text-decoration: underline;
+    /* margin: 15; */
+}
+
+.dot{
+    /*fill:rgb(132, 235, 111);*/
+    fill-opacity: 0.8;
+}
+
+.bar{
+    fill: #f3f6f8;
+    fill-opacity: 0.8;
+}
+
+.bar:hover{
+    fill: rgba(84, 154, 235, 0.329);
+    fill-opacity: 0.3;
+}
+
+.legend {
+    color: white;
+}
+
+#tooltip{
+    visibility: hidden;
+    width: auto;
+    height: auto;
+    
+}
+
+.tooltip{
+    color: rgb(8, 8, 10);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 5px;
+    background-color: rosybrown;
 }
